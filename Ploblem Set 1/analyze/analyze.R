@@ -17,7 +17,7 @@ dataset %>%
 ggplot(dataset) +
   geom_line(aes(x = year, y = gini, color = country), size = 2.0) +
   xlim(c(1975,NA))
-B.データ分析
+
 ggplot(dataset) +
   geom_point(aes(x = GDP_per_capita , y = gini, color = country), size = 4.0)
 
